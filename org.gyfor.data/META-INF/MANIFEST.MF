@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Data location
+Bundle-SymbolicName: org.gyfor.data
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: lib/PDFRenderer-0.9.1.jar,
+ .
+Bundle-Vendor: Kevin Holloway
+Export-Package: org.gyfor.data
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Service-Component: OSGI-INF/org.gyfor.data.ImageManager.xml,
+ OSGI-INF/org.gyfor.data.DataLocation.xml
+Import-Package: org.gyfor.osgi,
+ org.osgi.service.component;version="1.2.0",
+ org.osgi.service.component.annotations;version="1.2.0"

@@ -1,0 +1,20 @@
+h1. Core library code
+
+This bundle contains library code that is used throughout Gyfor code.  It provides classes that are extremely useful when writing accounting applications but are not available elsewhere.
+
+The library code breaks up into 6 sections:
+- Math := The Decimal class that provides fixed decimal numbers and arithmetic.
+
+; Text
+: Don't know yet
+
+; Time
+: Add additional functionality to the JSR310 range of date and time classes.
+
+* XXX
+* YYY
+
+dl. textile:a cloth, especially one manufactured by weaving
+    or knitting; a fabric
+    format:the arrangement of data for storage or display.
+    
