@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Simple "about" plugin
+Bundle-SymbolicName: org.gyfor.about
+Bundle-Version: 1.0.1
+Bundle-Vendor: Kevin Holloway
+Bundle-Category: gyfor
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Service-Component: OSGI-INF/org.gyfor.about.AboutService.xml
+Import-Package: org.osgi.service.component.annotations;version="1.2.0",
+ org.slf4j

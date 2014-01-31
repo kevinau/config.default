@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Branding service
+Bundle-SymbolicName: org.gyfor.branding
+Bundle-Version: 0.2.0
+Bundle-Vendor: Kevin Holloway
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: org.gyfor.branding
