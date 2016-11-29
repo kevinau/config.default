@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}Page Title{% endblock %}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/global/resources/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="/global/resources/kube.css">
+  <link rel="stylesheet" type="text/css" href="/global/resources/kube_003.css">
+  <link rel="stylesheet" type="text/css" href="/global/resources/master.css">
+  <link rel="stylesheet" type="text/css" href="/global/resources/kube_002.css">
+  <link rel="stylesheet" type="text/css" href="/global/resources/kube-overrides.css">
+  {% block head %}{% endblock %}
+</head>
+<body class="page-kube">
+  <div id="main">
+    <div id="kube-component" class="content">
+      {% block body %}{% endblock %}
+    </div>
+  </div>
+  {% block foot %}{% endblock %}
+</body>
+</html>
